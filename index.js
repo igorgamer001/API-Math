@@ -6,6 +6,9 @@ const PORT = 3000;
 // Middleware to parse JSON requests
 app.use(express.json());
 
+
+
+
 // Welcome route
 app.get('/', (req, res) => {
   res.send('Welcome to the Math Operations API! Use /math/add, /math/subtract, /math/multiply, /math/divide, or /math/sqrt.');
